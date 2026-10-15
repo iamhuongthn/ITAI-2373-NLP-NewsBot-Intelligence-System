@@ -289,9 +289,6 @@ and documentation were completed independently.
 - [Individual Reflection](reports/MT_Reflection_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf)
 - [Demo Video](demo/demo_video_link.md)
 
-
-MT_Reflection_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf
-
 ## Academic Integrity and Reproducibility
 
 All reported metrics are based on saved notebook experiments. The prototype's performance on new articles may differ from its held-out BBC test results.

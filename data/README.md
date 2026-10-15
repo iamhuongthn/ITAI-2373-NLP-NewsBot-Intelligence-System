@@ -85,6 +85,8 @@ Dataset: BBC News Classification Dataset
 
 Source: https://www.kaggle.com/competitions/learn-ai-bbc/data
 
+Approval Status: Approved
+
 The BBC News Classification Dataset is one of the datasets recommended in the midterm assignment instructions.
 
 The prepared dataset contains 1,440 English news articles across five categories.
