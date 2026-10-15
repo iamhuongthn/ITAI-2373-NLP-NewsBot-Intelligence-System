@@ -3,7 +3,7 @@
 ### Domain-Specific NLP for News Classification and Intelligence
 
 **Course:** ITAI 2373  
-**Project:** Midterm Group Project  
+**Project:** Midterm Project (Individual Implementation) 
 **Status:** Functional Academic Prototype  
 **Technology:** Python, NLTK, spaCy, scikit-learn, VADER, NRCLex
 
@@ -186,7 +186,7 @@ All nine examples executed successfully. Both external predictions matched their
 ├── requirements.txt
 ├── .gitignore
 ├── notebooks/
-│   └── NewsBot_Intelligence_System.ipynb
+│   └── Midterm_NewsBot_Intelligence_System.ipynb
 ├── data/
 │   └── README.md
 ├── evaluation/
@@ -257,8 +257,6 @@ Google Colab is the primary tested environment. Local compatibility may require 
 
 ## Author
 - Huong Thi Hue Nguyen
-
-Replace these placeholders with the actual team members and their work.
 
 ## Project Deliverables
 
