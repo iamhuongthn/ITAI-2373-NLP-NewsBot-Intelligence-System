@@ -184,7 +184,6 @@ All nine examples executed successfully. Both external predictions matched their
 .
 ├── README.md
 ├── requirements.txt
-├── .gitignore
 ├── notebooks/
 │   └── Midterm_NewsBot_Intelligence_System.ipynb
 ├── data/
@@ -197,8 +196,8 @@ All nine examples executed successfully. Both external predictions matched their
 ├── results/
 │   └── figures/
 ├── reports/
-│   ├── Midterm_Report.pdf
-│   └── NewsBot_Group_Reflection.pdf
+│   ├── MT_Report_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf
+│   └── MT_Reflection_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf
 └── demo/
     └── demo_video_link.md
 ```
@@ -209,7 +208,7 @@ Files not yet generated should be added only after they are available.
 
 ### Option A: Google Colab
 
-1. Open `notebooks/NewsBot_Intelligence_System.ipynb`.
+1. Open `notebooks/Midterm_NewsBot_Intelligence_System.ipynb`.
 2. Select **Open in Colab** or upload the notebook to Google Colab.
 3. Run the environment setup section.
 4. Download the BBC News dataset from Kaggle if it is not already available.
@@ -258,14 +257,40 @@ Google Colab is the primary tested environment. Local compatibility may require 
 ## Author
 - Huong Thi Hue Nguyen
 
+## Individual Project Implementation
+
+This NewsBot Intelligence System was developed
+independently by Huong Thi Hue Nguyen.
+
+I was responsible for the complete project,
+including:
+
+- Dataset preparation and preprocessing
+- Implementation of the eight NLP modules
+- Feature engineering and model evaluation
+- Integration of the NewsBot pipeline
+- Named entity recognition and manual review
+- End-to-end testing and result interpretation
+- Documentation, technical report, and reflection
+
+All technical implementation, evaluation,
+and documentation were completed independently.
+
 ## Project Deliverables
 
-- [Final Notebook](notebooks/NewsBot_Intelligence_System.ipynb)
+- [Final Notebook](notebooks/Midterm_NewsBot_Intelligence_System.ipynb)
 - [Dataset Documentation](data/README.md)
 - [Evaluation Documentation](evaluation/README.md)
-- [Technical Report](reports/Midterm_Report.pdf)
-- [Group Reflection](reports/NewsBot_Group_Reflection.pdf)
+- [Model Comparison](evaluation/model_comparison.csv)
+- [NewsBot Testing Results](evaluation/newsbot_testing_results.csv)
+- [NER Manual Review](evaluation/newsbot_ner_manual_review.csv)
+- [Comprehensive Analysis](evaluation/newsbot_comprehensive_analysis.json)
+- [Technical Report](reports/MT_Report_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf)
+- [Individual Reflection](reports/MT_Reflection_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf)
 - [Demo Video](demo/demo_video_link.md)
+
+
+MT_Reflection_Individual_Huong_Thi_Hue_Nguyen_ITAI2373.pdf
 
 ## Academic Integrity and Reproducibility
 

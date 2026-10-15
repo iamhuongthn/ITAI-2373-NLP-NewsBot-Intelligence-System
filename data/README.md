@@ -81,8 +81,10 @@ The BBC news collection may not represent modern reporting styles or all news pu
 
 ## Dataset Approval
 
-Instructor approval status: [Insert actual approval status]
+Dataset: BBC News Classification Dataset
 
-Approval date: [Insert date if approved]
+Source: https://www.kaggle.com/competitions/learn-ai-bbc/data
 
-Do not mark the dataset as approved until approval has been confirmed.
+The BBC News Classification Dataset is one of the datasets recommended in the midterm assignment instructions.
+
+The prepared dataset contains 1,440 English news articles across five categories.
