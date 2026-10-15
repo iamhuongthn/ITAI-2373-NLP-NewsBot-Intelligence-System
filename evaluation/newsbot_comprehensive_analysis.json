@@ -1,0 +1,205 @@
+{
+    "dataset_overview": {
+        "total_articles": 1440,
+        "categories": [
+            "business",
+            "entertainment",
+            "politics",
+            "sport",
+            "tech"
+        ],
+        "category_distribution": {
+            "sport": 342,
+            "business": 335,
+            "politics": 266,
+            "entertainment": 263,
+            "tech": 234
+        },
+        "avg_article_length": 2234.2618055555554,
+        "avg_words_per_article": 385.2159722222222,
+        "total_categories": 5
+    },
+    "classification_performance": {
+        "best_model": "Naive Bayes",
+        "best_accuracy": 0.9444444444444444,
+        "best_macro_f1": 0.9402639014853065,
+        "best_cv_f1": 0.9701231871140571,
+        "model_comparison": {
+            "Naive Bayes": {
+                "accuracy": 0.9444444444444444,
+                "macro_f1": 0.9402639014853065,
+                "cv_mean": 0.9701231871140571,
+                "cv_std": 0.0074226997768593195
+            },
+            "Logistic Regression": {
+                "accuracy": 0.9270833333333334,
+                "macro_f1": 0.9235727435102413,
+                "cv_mean": 0.9098576255965074,
+                "cv_std": 0.023180539425830603
+            },
+            "SVM": {
+                "accuracy": 0.9583333333333334,
+                "macro_f1": 0.955696429879229,
+                "cv_mean": 0.9583058987569102,
+                "cv_std": 0.024614576712982734
+            }
+        },
+        "training_articles": 1152,
+        "testing_articles": 288
+    },
+    "sentiment_insights": {
+        "most_positive_category": "entertainment",
+        "most_negative_category": "politics",
+        "sentiment_by_category": {
+            "business": 0.23814447761194033,
+            "entertainment": 0.5899680608365019,
+            "politics": 0.0541421052631579,
+            "sport": 0.5492093567251461,
+            "tech": 0.5329709401709402
+        },
+        "overall_sentiment": 0.3901990277777778,
+        "sentiment_distribution": {
+            "negative": {
+                "business": 36.42,
+                "entertainment": 19.01,
+                "politics": 46.62,
+                "sport": 20.76,
+                "tech": 20.94
+            },
+            "neutral": {
+                "business": 1.49,
+                "entertainment": 0.76,
+                "politics": 0.38,
+                "sport": 0.29,
+                "tech": 0.85
+            },
+            "positive": {
+                "business": 62.09,
+                "entertainment": 80.23,
+                "politics": 53.01,
+                "sport": 78.95,
+                "tech": 78.21
+            }
+        }
+    },
+    "entity_insights": {
+        "total_entities": 40803,
+        "unique_entities": 11995,
+        "entity_types": [
+            "CARDINAL",
+            "DATE",
+            "EVENT",
+            "FAC",
+            "GPE",
+            "LANGUAGE",
+            "LAW",
+            "LOC",
+            "MONEY",
+            "NORP",
+            "ORDINAL",
+            "ORG",
+            "PERCENT",
+            "PERSON",
+            "PRODUCT",
+            "QUANTITY",
+            "TIME",
+            "WORK_OF_ART"
+        ],
+        "entities_per_category": {
+            "business": 10187,
+            "entertainment": 7322,
+            "politics": 7066,
+            "sport": 10182,
+            "tech": 6046
+        },
+        "most_mentioned_entities": {
+            "first": 739,
+            "one": 639,
+            "two": 584,
+            "us": 547,
+            "uk": 524,
+            "british": 326,
+            "second": 316,
+            "three": 313,
+            "britain": 277,
+            "london": 272
+        },
+        "entity_type_distribution": {
+            "DATE": 8523,
+            "PERSON": 7803,
+            "CARDINAL": 5965,
+            "GPE": 5433,
+            "ORG": 4288,
+            "NORP": 2665,
+            "MONEY": 1710,
+            "ORDINAL": 1609,
+            "PERCENT": 1242,
+            "TIME": 582,
+            "LOC": 489,
+            "QUANTITY": 191,
+            "FAC": 88,
+            "PRODUCT": 82,
+            "LANGUAGE": 50,
+            "EVENT": 42,
+            "LAW": 33,
+            "WORK_OF_ART": 8
+        },
+        "avg_entities_per_article": 28.335416666666667
+    },
+    "linguistic_patterns": {
+        "top_terms_by_category": {
+            "business": [
+                "firm",
+                "company",
+                "market",
+                "year",
+                "share"
+            ],
+            "entertainment": [
+                "film",
+                "star",
+                "award",
+                "best",
+                "actor"
+            ],
+            "politics": [
+                "labour",
+                "election",
+                "party",
+                "government",
+                "blair"
+            ],
+            "sport": [
+                "game",
+                "win",
+                "play",
+                "player",
+                "match"
+            ],
+            "tech": [
+                "use",
+                "people",
+                "user",
+                "technology",
+                "computer"
+            ]
+        },
+        "pos_patterns": {
+            "highest_noun_category": "entertainment",
+            "highest_verb_category": "politics",
+            "highest_number_category": "business"
+        },
+        "syntax_patterns": {
+            "longest_sentences_category": "politics",
+            "highest_dependency_distance_category": "sport"
+        }
+    },
+    "business_recommendations": [
+        "Classification performance is promising for a prototype. Validate on unseen external news articles before deployment.",
+        "entertainment has the highest average VADER sentiment score. Review representative articles to understand the underlying language.",
+        "politics has the lowest average VADER sentiment score. Monitor patterns without assuming negative sentiment means biased coverage.",
+        "Use named entities to support article search, organization monitoring, and discovery of frequently co-mentioned entities.",
+        "Combine TF-IDF, sentiment, and linguistic features only when validation shows measurable improvement over a simpler TF-IDF baseline.",
+        "The BBC dataset lacks publication dates and independent headlines. Temporal analysis and headline comparisons require richer metadata."
+    ]
+}

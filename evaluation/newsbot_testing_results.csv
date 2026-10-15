@@ -1,0 +1,10 @@
+Article,Test Type,Group,Source,Expected,Predicted,Confidence,Sentiment,Sentiment Score,Entity Count,Correct,Status
+1,Business / Technology,Synthetic,Synthetic demonstration,Business,business,0.35974120100009954,positive,0.6597,6,True,Success
+2,Sports,Synthetic,Synthetic demonstration,Sport,sport,0.6156282505215157,positive,0.5574,7,True,Success
+3,Ambiguous: Science / Politics,Synthetic,Synthetic demonstration,,business,0.32892986212175346,positive,0.2263,1,,Success
+4,Business,Synthetic,Synthetic demonstration,Business,business,0.9751062677368806,positive,0.6808,0,True,Success
+5,Entertainment,Synthetic,Synthetic demonstration,Entertainment,entertainment,0.7925227687278494,positive,0.4767,0,True,Success
+6,Politics,Synthetic,Synthetic demonstration,Politics,politics,0.6989812014986968,neutral,0.0,0,True,Success
+7,Technology,Synthetic,Synthetic demonstration,Tech,tech,0.6492942161910253,positive,0.7906,0,True,Success
+8,External: Technology,External,https://www.nasa.gov/news-release/nasa-identifies-more-than-40-space-technologies-for-collaboration/,Tech,tech,0.5047797768778567,positive,0.9966,44,True,Success
+9,External: Economic policy,External,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm,Business,business,0.8933340770959554,positive,0.9493,16,True,Success
